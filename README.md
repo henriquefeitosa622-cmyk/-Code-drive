@@ -48,7 +48,7 @@ Projeto acadêmico desenvolvido em Python utilizando **Streamlit** para interfac
 
 ---
 
-##  Tecnologias Utilizadas
+## Tecnologia Utilizada
 
 - Python 
 - Streamlit
