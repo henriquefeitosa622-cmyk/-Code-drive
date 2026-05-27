@@ -50,7 +50,7 @@ Projeto acadêmico desenvolvido em Python utilizando **Streamlit** para interfac
 
 ##  Tecnologias Utilizadas
 
-- Python =
+- Python 
 - Streamlit
 - Pandas
 - Pygame
@@ -64,3 +64,58 @@ Projeto acadêmico desenvolvido em Python utilizando **Streamlit** para interfac
 
 ```bash
 git clone https://github.com/SEU-USUARIO/NOME-DO-PROJETO.git
+
+cd NOME-DO-PROJETO
+```
+
+---
+### 2. Instale as dependências
+    pip install streamlit 
+    pip install pandas 
+    pip install pygame
+---
+### Como Executar o Projeto
+
+🔹 Rodar o sistema web (Streamlit)
+
+    streamlit run menu.py
+
+➡️ Isso abrirá automaticamente no navegador:
+
+    http://localhost:8501
+---
+
+    
+### Navegação dentro do sistema
+    Faça login (ou vá para cadastro)
+    Cadastre um cliente
+    Volte ao menu
+    Acesse outras funcionalidades
+---
+
+## Rodar o controle do Rover
+    python controle.py
+---
+##  Configuração IMPORTANTE
+
+    No arquivo controle.py, altere o IP para o do seu rover:
+
+    cliente.connect(("192.168.7.149", 5000))
+
+    ➡️ Substitua pelo IP correto da sua rede
+---
+## ⌨️ Controles do Rover
+
+| Tecla        | Ação       |
+|--------------|------------|
+| W            | Avançar    |
+| S            | Recuar     |
+| A            | Esquerda   |
+| D            | Direita    |
+| Soltar tecla | Parar      |
+
+---
+⚠️ Observações
+O sistema usa st.session_state (dados não persistem ao fechar)
+O Streamlit precisa estar rodando para navegação entre páginas
+Certifique-se que o servidor do rover está ativo antes de usar o controle
