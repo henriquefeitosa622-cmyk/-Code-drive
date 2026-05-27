@@ -1,4 +1,4 @@
-# 🚗 Sistema Web com Streamlit + Controle de Rover
+# 🚗 🚗 Code Drive — Controle de Rover via Rede
 
 Projeto acadêmico desenvolvido em Python utilizando **Streamlit** para interface web e **Pygame + Socket** para controle de um rover via teclado.
 
